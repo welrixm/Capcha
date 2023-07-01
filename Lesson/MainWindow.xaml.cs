@@ -43,7 +43,7 @@ namespace Lesson
                 textblock.FontSize = random.Next(10, 20);
                 textblock.RenderTransform = new RotateTransform(random.Next(-45, 45));
                 textblock.Margin = new Thickness(10, 0, 10, 0);
-                Stack.Children.Add(textblock);
+                Stack1.Children.Add(textblock);
             }
         }
         public void GenerateShum(int noise)
@@ -79,7 +79,7 @@ namespace Lesson
         }
         public void UpdateCapcha()
         {
-            Stack.Children.Clear();
+            Stack1.Children.Clear();
             canvas.Children.Clear();
             GenerateSymbol();
             GenerateShum(100);

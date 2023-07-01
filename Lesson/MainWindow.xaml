@@ -10,6 +10,9 @@
         <Canvas x:Name="canvas" Width="400" Height="200" VerticalAlignment="Center" HorizontalAlignment="Center">
             
         </Canvas>
+        <StackPanel x:Name="Stack1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+        </StackPanel>
         <StackPanel x:Name="Stack" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button x:Name="but1" Content="Генератор" HorizontalAlignment="Center" VerticalAlignment="Center" Click="but1_Click" Width="200" Height="20" ></Button>
         </StackPanel>
